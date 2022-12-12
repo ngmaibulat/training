@@ -20,6 +20,7 @@
 -   https://www.lpi.org/our-certifications/exam-201-objectives
 -   https://www.lpi.org/our-certifications/exam-202-objectives
 -   https://learning.lpi.org/en/learning-materials/all-materials/
+-   https://lpic2book.github.io/src/
 
 ### LPIC-3 Exam 305: Virtualization and Containerization
 
