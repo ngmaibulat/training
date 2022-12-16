@@ -1,0 +1,3 @@
+- https://kb.vmware.com/s/article/82250
+- https://www.youtube.com/watch?v=lhWQBz5oj8o
+- https://www.youtube.com/watch?v=shiIi38cJe4
