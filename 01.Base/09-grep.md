@@ -69,6 +69,12 @@ grep Niger country.txt
 grep -w Niger country.txt
 ```
 
+### Exclude
+
+```bash
+grep -v nologin /etc/passwd #filter lines NOT matching 'nologin'
+```
+
 ### Words
 
 ```
@@ -83,6 +89,14 @@ cat /usr/share/dict/french  | wc -l
 cat /usr/share/dict/german-medical | wc -l
 
 grep linu /usr/share/dict/american-english-insane
+```
+
+### CSV
+
+```bash
+wget https://raw.githubusercontent.com/datasets/world-cities/master/data/world-cities.csv -O cities.csv
+
+grep Argenti cities.csv
 ```
 
 ### Using '.'
@@ -123,6 +137,7 @@ str$   line ends with 'str'
 
 ```bash
 [abcd] a or or c or
+[a-z]  Matches any characters between 'a' and 'z'
 
 grep '^[ab]' /usr/share/dict/american-english #line that start by 'a' or 'b'
 ```
