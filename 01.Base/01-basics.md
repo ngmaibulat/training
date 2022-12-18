@@ -3,12 +3,16 @@
 ```bash
 uname
 uptime
+lsb_release -a
+
 ip addr
 ip addr | grep inet
 cat /etc/resolv.conf
 ls -la
 pwd
 df -h
+
+apt list | grep installed
 ```
 
 ### Sudo
@@ -44,4 +48,15 @@ sudo systemctl status open-vm-tools
 ```bash
 sudo reboot
 sudo halt
+```
+
+### Hostname
+
+```bash
+cat /etc/hostname
+hostname
+hostname -d
+hostname -f
+
+sudo hostnamectl hostname dev
 ```
