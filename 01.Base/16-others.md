@@ -1,0 +1,10 @@
+- tail, head
+- xargs
+- archives: lzcat, tar, gzip, xz, zcat
+- gio
+- jobs
+- nohup
+- ps, process mgmt
+- last, lastlog
+- tac
+- tr

@@ -1,3 +1,4 @@
 - wget
 - curl
+- lwp-request
 - @aibulat/http
