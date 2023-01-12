@@ -22,6 +22,9 @@
 - fail2ban
 - disable password based auth
 - ssh auth in github, ssh -T
+- using forward tunnels
+- using reverse tunnels
+- ssh via http proxy
 - kerberos auth?
 - Ansible basics
 
