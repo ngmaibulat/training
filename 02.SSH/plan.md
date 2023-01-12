@@ -11,6 +11,9 @@
 - ssh agent forwarding
 - ssh user@host uptime
 - cat file | ssh user@host cmd
+- update file via ssh: cat file.txt | ssh user@host 'cat > remote.txt'
+- get file via ssh:  ssh user@host 'cat remote.txt'
+- using scp
 - ssh client config
 - background jobs
 - nohup
